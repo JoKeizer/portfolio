@@ -1,26 +1,29 @@
+body {
+  background-color: red;
+}
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
 }
 
-  h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    letter-spacing: 2.5px;
-    -webkit-text-transform: uppercase;
-    text-transform: uppercase;
-  }
+h5{
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+}
 
-  h6{
-    letter-spacing: 2.5px;
-    -webkit-text-transform: uppercase;
-    text-transform: uppercase;
-    font-weight: 600;
-  }
+h6{
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+  font-weight: 600;
+}
 
-  p{
-    font-size: 15px;
-    color: #666;
-  }
+p{
+  font-size: 15px;
+  color: #666;
+}
 
 .round{
   border-radius: 5px;
@@ -63,24 +66,24 @@ a:hover{
   box-shadow: none !important;
 }
 
-  .portfolio-me p{
-    font-size: 14px;
-    color: #999;
-  }
+.portfolio-me p{
+  font-size: 14px;
+  color: #999;
+}
 
-  .portfolio-me a{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 600;
-    color: #555;
-    font-size: 13px;
-    letter-spacing: 2.5px;
-    -webkit-text-transform: uppercase;
-    text-transform: uppercase;
-  }
+.portfolio-me a{
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: #555;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+}
 
-  .portfolio-me a:hover{
-    color: #999;
-  }
+.portfolio-me a:hover{
+  color: #999;
+}
 
 .portfolio-breadcrumb{
   margin: 0;
@@ -88,14 +91,14 @@ a:hover{
   border-bottom: 1px solid #eaeaea;
 }
 
- .portfolio-breadcrumb a{
-   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-   font-weight: 600;
-   font-size: 13px;
-   letter-spacing: 2.5px;
-   -webkit-text-transform: uppercase;
-   text-transform: uppercase;
- }
+.portfolio-breadcrumb a{
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+}
 
 .portfolio-intro{
   margin: 0;
@@ -112,29 +115,29 @@ a:hover{
   padding: 10px 50px;
 }
 
-  .portfolio-index .thumbnail{
-    margin-bottom: 5px;
-  }
+.portfolio-index .thumbnail{
+  margin-bottom: 5px;
+}
 
-  .portfolio-index a{
-    color: #222;
-  }
+.portfolio-index a{
+  color: #222;
+}
 
-  .portfolio-index .cell{
-    margin-bottom: 15px;
-  }
+.portfolio-index .cell{
+  margin-bottom: 15px;
+}
 
-    .portfolio-index .cell h5{
-      letter-spacing: 1px;
-    }
+.portfolio-index .cell h5{
+  letter-spacing: 1px;
+}
 
 .portfolio-meta{
   padding-left: 20px;
 }
 
-  .portfolio-meta .button{
-    margin-bottom: 5px;
-  }
+.portfolio-meta .button{
+  margin-bottom: 5px;
+}
 
 .portfolio-project p{
   border: none;
@@ -146,5 +149,20 @@ a:hover{
 }
 
 .portfolio-bio{
-    line-height: 25px;
+  line-height: 25px;
 }
+.iconsContainer {
+  display: flex;
+}
+
+.iconTech {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 90px;
+}
+
+.iconTech img{
+  width: 100%;
+}
+
