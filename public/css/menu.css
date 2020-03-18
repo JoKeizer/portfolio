@@ -1,7 +1,30 @@
 
-.menu-section {
-    background-color: red;
+body {
+    background-color: #ffd700;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100vh;
+    font-family: 'Saira Condensed', sans-serif;
+
 }
+
+h1 {
+    font-family: 'Saira Condensed', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+a:hover {
+    color: black;
+    border: 2px solid black;
+
+}
+
 
 .menu-toggle {
     width: 40px;
@@ -75,4 +98,75 @@ nav ul a:hover {
     display: block;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
+    top: 0;
+}
+
+
+.logoContainer {
+    width: 160px;
+    padding: 28px 0 20px 100px;
+}
+
+.logoContainer img {
+    width: 100%;
+}
+
+.introContainer {
+    position: absolute;
+    left: 100px;
+    top: 28%;
+    display: flex;
+    width: 400px;
+}
+
+.titleIntro {
+    font-size: 59px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: 16px;
+    margin: 0;
+}
+
+
+.profileImage {
+    position: absolute;
+    left: 50%;
+    margin-left: -175px;
+    top: 9%;
+    margin-top: -50px;
+    width: 442px;
+    height: 100%;
+}
+.profileImage img {
+    width: 100%;
+}
+
+.pageTitle {
+    position: absolute;
+    bottom: -88px;
+    left: 100px;
+    font-size: 156px;
+    line-height: 0;
+    z-index: -1;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 10.4px;
+}
+
+.textIntro {
+    color: white;
+    font-size: 23px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.btn {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 60px;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }

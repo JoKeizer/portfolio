@@ -1,0 +1,17 @@
+.titleWrapper {
+    color: white;
+    display: flex;
+    height: 94vh;
+    justify-content: left;
+    align-items: flex-end;
+    padding-left: 100px
+
+}
+
+.title {
+    font-size: 140px;
+    text-transform: uppercase;
+    line-height: 0;
+    font-family: 'Saira Condensed', sans-serif;
+
+}

@@ -1,7 +1,10 @@
 extends menu.pug
 
 block menu
-    .body
+    header.header
+      .logoContainer
+        img(src='./static/images/logo.png')
+      .menu
         .menu-section
           .menu-toggle
             .one
@@ -17,6 +20,24 @@ block menu
                 a(href='#') resume
               li
                 a(href='#') contact
+    .introContainer
+        .intro
+          h1.titleIntro A Creative Portfolio
+          p.textIntro
+            | Welcome on my portfolio. Here you will find all my project from the Full Stack JavaScript Techdegree from Treehouse
+          a.btn(href=`/portfolio`) Portfolio
 
-        script(src='/static/js/scripts.js')
+    .profileImage
+      img(src='./static/images/pineapple.png')
+    .pageTitle
+      h1 Developer!
+
+
+
+
+
+
+
+
+
 
