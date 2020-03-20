@@ -2,8 +2,9 @@ extends menu.pug
 
 block menu
     header.header
-      .logoContainer
-        img(src='./static/images/logo.png')
+      .logoContainerHome
+        a.logo(href='/')
+            img(src='/static/images/logo.png')
       .menu
         .menu-section
           .menu-toggle
@@ -13,22 +14,27 @@ block menu
           nav
             ul.hidden(role='navigation')
               li
-                a(href='#') work
+                a(href=`portfolio`) portfolio
               li
                 a(href='#') about
               li
                 a(href='#') resume
               li
                 a(href='#') contact
+    .socialBlock
+      #rotateFB
+        img(src='/static/images/github.png')
+      #rotateTw
+        img(src='/static/images/instagram.png')
+      #rotateIg
+        img(src=' /static/images/facebook.png')
     .introContainer
-        .intro
-          h1.titleIntro A Creative Portfolio
-          p.textIntro
-            | Welcome on my portfolio. Here you will find all my project from the Full Stack JavaScript Techdegree from Treehouse
-          a.btn(href=`/portfolio`) Portfolio
-
-    .profileImage
-      img(src='./static/images/pineapple.png')
+      .intro
+        h1.titleIntro A Creative Portfolio
+        p.textIntro
+          | Welcome on my portfolio. Here you will find all my project from Threehouse Techdegree Javascript
+        a.btn(href=`portfolio`) Portfolio
+    #top-image.profileImage
     .pageTitle
       h1 Developer!
 

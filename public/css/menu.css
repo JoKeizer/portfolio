@@ -6,7 +6,6 @@ body {
     position: relative;
     height: 100vh;
     font-family: 'Saira Condensed', sans-serif;
-
 }
 
 h1 {
@@ -22,9 +21,32 @@ a {
 a:hover {
     color: black;
     border: 2px solid black;
-
 }
 
+nav {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    width: 100vw;
+}
+
+a.logo {
+    border: none;
+}
+
+a.logo:hover {
+    opacity: 0.6;
+}
+.header {
+    height: 36px;
+}
+
+.menu {
+    position: unset !important;
+}
 
 .menu-toggle {
     width: 40px;
@@ -33,6 +55,7 @@ a:hover {
     top: 20px;
     right: 25px;
     cursor: pointer;
+    z-index: 2;
 }
 .menu-toggle.on .one {
     -moz-transform: rotate(45deg) translate(7px, 7px);
@@ -102,9 +125,19 @@ nav ul a:hover {
 }
 
 
+
 .logoContainer {
+    width: 270px;
+    padding: 28px 0 20px 100px;
+}
+
+.logoContainerHome {
     width: 160px;
     padding: 28px 0 20px 100px;
+}
+
+.logoContainerHome img {
+    width: 100%;
 }
 
 .logoContainer img {
@@ -119,6 +152,7 @@ nav ul a:hover {
     width: 400px;
 }
 
+
 .titleIntro {
     font-size: 59px;
     color: white;
@@ -128,6 +162,12 @@ nav ul a:hover {
     margin: 0;
 }
 
+.textIntro {
+    color: white;
+    font-size: 23px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
 
 .profileImage {
     position: absolute;
@@ -169,4 +209,68 @@ nav ul a:hover {
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+
+.socialBlock {
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#rotateFB img{
+    width: 100%;
+}
+
+#rotateFB {
+    padding: 10px;
+    height: 78px;
+    width: 78px;
+}
+
+#rotateTw img {
+    width: 100%;
+}
+
+#rotateTw {
+    padding: 10px;
+    height: 78px;
+    width: 78px;
+}
+
+#rotateIg img {
+    width: 100%;
+
+}
+
+#rotateIg {
+    padding: 10px;
+    height: 78px;
+    width: 78px;
+}
+
+.over {
+    transform: rotate( -90deg );
+    transition: transform 150ms ease;
+}
+
+.out {
+    transform: rotate( 0deg );
+    transition: transform 150ms ease;
+}
+
+
+#top-image {
+    background: url(/static/images/pineapple.png) -25px -50px;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 0;
+    top: 10px;
+    width: 600px;
 }
