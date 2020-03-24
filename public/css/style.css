@@ -170,5 +170,13 @@ a:hover{
   max-width: 1000px;
   margin: auto;
 }
+
+
+.portfolio-index .thumbnail{
+  transition: all .5s;
 }
+.portfolio-index .thumbnail:hover{
+  transform: scale(1.05);
+}
+
 
