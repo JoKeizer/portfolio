@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 html(class="no-js" lang="en" dir="ltr")
   head
@@ -11,21 +12,7 @@ html(class="no-js" lang="en" dir="ltr")
     link(rel='stylesheet', href='/static/css/menu.css')
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js')
 
-  body
-<!DOCTYPE html>
-html(class="no-js" lang="en" dir="ltr")
-  head
-    meta(charset='utf-8')
-    meta(http-equiv='x-ua-compatible', content='ie=edge')
-    meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Portfolio Site
-    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
-    link(rel='stylesheet', href='/static/css/foundation.css')
-    link(rel='stylesheet', href='/static/css/style.css')
-    link(rel='stylesheet', href='/static/css/menu.css')
-    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js')
-
-  body
+  body.theme-yellow
       header.header
         .logoContainer
             a.logo(href='/')
@@ -39,20 +26,21 @@ html(class="no-js" lang="en" dir="ltr")
             nav
               ul.hidden(role='navigation')
                 li
-                  a(href=`portfolio`) portfolio
+                  a(href=`/`) Home
                 li
-                  a(href='#') about
+                  a(href=`portfolio`) Portfolio
                 li
-                  a(href='#') resume
-                li
-                  a(href='#') contact
+                  a(href=`about`) About
       .socialBlock
         #rotateFB
-          img(src='/static/images/github.png')
+            a(href='https://github.com/JoKeizer', target='_blank')
+              img(src='/static/images/social/github.png')
         #rotateTw
-          img(src='/static/images/instagram.png')
+            a(href='https://www.instagram.com/jo_keizer/', target='_blank')
+              img(src='/static/images/social/instagram.png')
         #rotateIg
-          img(src=' /static/images/facebook.png')
+            a(href='https://www.facebook.com/keizer2012?ref=bookmarks', target='_blank')
+              img(src=' /static/images/social/facebook.png')
 block content
 script(src='/static/js/main.js')
 

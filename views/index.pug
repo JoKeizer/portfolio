@@ -1,33 +1,6 @@
-extends menu.pug
+extends layout.pug
 
-block menu
-    header.header
-      .logoContainerHome
-        a.logo(href='/')
-            img(src='/static/images/logo.png')
-      .menu
-        .menu-section
-          .menu-toggle
-            .one
-            .two
-            .three
-          nav
-            ul.hidden(role='navigation')
-              li
-                a(href=`portfolio`) portfolio
-              li
-                a(href='#') about
-              li
-                a(href='#') resume
-              li
-                a(href='#') contact
-    .socialBlock
-      #rotateFB
-        img(src='/static/images/github.png')
-      #rotateTw
-        img(src='/static/images/instagram.png')
-      #rotateIg
-        img(src=' /static/images/facebook.png')
+block content
     .introContainer
       .intro
         h1.titleIntro A Creative Portfolio

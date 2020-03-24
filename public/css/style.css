@@ -165,4 +165,10 @@ a:hover{
 .iconTech img{
   width: 100%;
 }
+#error {
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+}
 

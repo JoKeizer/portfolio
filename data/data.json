@@ -7,10 +7,10 @@
       "technologies": [{"name":"HTML5", "icon":"/static/images/technologie/html5.png"},
                       {"name":"CSS3", "icon":"/static/images/technologie/css3.png"},
                       {"name":"JavaScript", "icon":"/static/images/technologie/js.png"}],
-      "live_link":  "/",
+      "live_link":  "https://jokeizer.github.io/random-quotes-generator/",
       "github_link": "https://github.com/JoKeizer/random-quotes-generator",
-      "image_url": ["/static/images/quote_generator/life_quote.jpg", "/static/images/quote_generator/life_quote.jpg"],
-      "thumbnail": "/static/images/quote_generator/quote_generator.jpg"
+      "image_url": ["/static/images/quote_generator/life_quote.jpg", "/static/images/quote_generator/wisdom_quote.jpg", "/static/images/quote_generator/filosofie_quote.jpg"],
+      "thumbnail": "/static/images/portfolio/love-quote.jpg"
     },
     {
       "id": 2,
@@ -19,10 +19,10 @@
       "technologies": [{"name":"HTML5", "icon":"/static/images/technologie/html5.png"},
                       {"name":"CSS3", "icon":"/static/images/technologie/css3.png"},
                       {"name":"JavaScript", "icon":"/static/images/technologie/js.png"}],
-      "live_link":  "/",
-      "github_link": "https://github.com/JoKeizer/random-quotes-generator",
-      "image_url": ["/static/images/quote_generator/life_quote.jpg", "/static/images/quote_generator/life_quote.jpg"],
-      "thumbnail": "/static/images/quote_generator/quote_generator.jpg"
+      "live_link":  "https://jokeizer.github.io/list-pagination/",
+      "github_link": "https://github.com/JoKeizer/list-pagination",
+      "image_url": ["/static/images/list_pagination/page_1.jpg"],
+      "thumbnail": "/static/images/list_pagination/list_pagination.jpg"
     },
     {
       "id": 3,
@@ -31,10 +31,10 @@
       "technologies": [{"name":"HTML5", "icon":"/static/images/technologie/html5.png"},
                       {"name":"CSS3", "icon":"/static/images/technologie/css3.png"},
                       {"name":"JavaScript", "icon":"/static/images/technologie/js.png"}],
-      "live_link":  "/",
-      "github_link": "https://github.com/JoKeizer/random-quotes-generator",
-      "image_url": ["/static/images/quote_generator/life_quote.jpg", "/static/images/quote_generator/life_quote.jpg"],
-      "thumbnail": "/static/images/quote_generator/quote_generator.jpg"
+      "live_link":  "https://jokeizer.github.io/interactive-form/",
+      "github_link": "https://github.com/JoKeizer/interactive-form",
+      "image_url": ["/static/images/interactive_form/page_1.jpg", "/static/images/interactive_form/page_2.jpg"],
+      "thumbnail": "/static/images/interactive_form/interactive_form.jpg"
     },
     {
       "id": 4,
@@ -43,22 +43,34 @@
       "technologies": [{"name":"HTML5", "icon":"/static/images/technologie/html5.png"},
                       {"name":"CSS3", "icon":"/static/images/technologie/css3.png"},
                       {"name":"JavaScript", "icon":"/static/images/technologie/js.png"}],
-      "live_link":  "/",
-      "github_link": "https://github.com/JoKeizer/random-quotes-generator",
-      "image_url": ["/static/images/quote_generator/life_quote.jpg", "/static/images/quote_generator/life_quote.jpg"],
-      "thumbnail": "/static/images/quote_generator/quote_generator.jpg"
+      "live_link":  "https://jokeizer.github.io/game-show-app/",
+      "github_link": "https://github.com/JoKeizer/game-show-app",
+      "image_url": ["/static/images/phrase_hunter/page_1.jpg", "/static/images/phrase_hunter/page_2.jpg", "/static/images/phrase_hunter/page_3.jpg"],
+      "thumbnail": "/static/images/phrase_hunter/phrase_hunter.jpg"
     },
     {
       "id": 5,
+      "project_name": "Four on a row",
+      "description": "Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages. Using JavaScript, you’ll create an employee directory by communicating with a third-party API (Application Programming Interface).",
+      "technologies": [{"name":"HTML5", "icon":"/static/images/technologie/html5.png"},
+        {"name":"CSS3", "icon":"/static/images/technologie/css3.png"},
+        {"name":"JavaScript", "icon":"/static/images/technologie/js.png"}],
+      "live_link":  "https://jokeizer.github.io/four_on_a_row/",
+      "github_link": "https://github.com/JoKeizer/four_on_a_row",
+      "image_url": ["/static/images/four_on_a_row/page_1.jpg"],
+      "thumbnail": "/static/images/four_on_a_row/four_on_a_row.jpg"
+    },
+    {
+      "id": 6,
       "project_name": "Public API Requests",
       "description": "Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages. Using JavaScript, you’ll create an employee directory by communicating with a third-party API (Application Programming Interface).",
       "technologies": [{"name":"HTML5", "icon":"/static/images/technologie/html5.png"},
         {"name":"CSS3", "icon":"/static/images/technologie/css3.png"},
         {"name":"JavaScript", "icon":"/static/images/technologie/js.png"}],
-      "live_link":  "/",
-      "github_link": "https://github.com/JoKeizer/random-quotes-generator",
-      "image_url": ["/static/images/quote_generator/life_quote.jpg", "/static/images/quote_generator/life_quote.jpg"],
-      "thumbnail": "/static/images/quote_generator/quote_generator.jpg"
+      "live_link":  "https://jokeizer.github.io/api_requests/",
+      "github_link": "https://github.com/JoKeizer/api_requests",
+      "image_url": ["/static/images/api_request/page_1.jpg", "/static/images/api_request/page_2.jpg" , "/static/images/api_request/page_3.jpg"],
+      "thumbnail": "/static/images/api_request/api_request.jpg"
     }
   ]
 }

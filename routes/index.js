@@ -15,6 +15,10 @@ router.get('/portfolio', function(req, res, next) {
   res.render('portfolio', { projects });
 });
 
+router.get('/about', function(req, res, next) {
+  res.render('about')
+});
+
 /* GET project page. */
 router.get('/projects/:id', function(req, res, next) {
   const projectId = req.params.id;
