@@ -1,36 +1,44 @@
 const express = require('express');
-const router = express.Router();
+const Router = express.Router();
 const { projects } = require('../data/data.json');
 
-console.dir(projects)
-console.log("running")
+console.log("test", projects)
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index');
+// Index route
+Router.get('/', function(req, res, next) {
+  res.render('index', { projects });
 });
 
-/* GET home page. */
-router.get('/portfolio', function(req, res, next) {
-  res.render('portfolio', { projects });
-});
+// About route
+Router.get("/about", function(req, res, next){
+  res.render('about');
+})
 
-router.get('/about', function(req, res, next) {
-  res.render('about')
-});
 
-/* GET project page. */
-router.get('/projects/:id', function(req, res, next) {
+Router.get('/projects/:id', function(req, res, next) {
   const projectId = req.params.id;
   const project = projects.find( ({ id }) => id === +projectId );
 
   console.dir(projects)
-  
+
   if (project) {
     res.render('project', { project });
   } else {
     res.sendStatus(404);
   }
 });
+// // Project route with ID param
+// Router.get("/project/:id", function(req, res, next){
+//   const pro = parseInt(req.params.id);
+//   const project = projects[pro];
+//
+//   // check if project page has valid ID else throw specific project page error
+//   if(Number.isInteger(pro) && pro < projects.length && pro >= 0){
+//     return res.render('project',{project});
+//   } else{
+//     let err = new Error("This project page doesn't exist");
+//     next(err);
+//   }
+// })
 
-module.exports = router;
+module.exports = Router;

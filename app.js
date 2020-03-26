@@ -15,15 +15,14 @@ app.set('view engine', 'pug');
 //- 1. Add static middleware
 app.use('/static', express.static(path.join(__dirname, 'public')));
 
-console.log("running")
-
-
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 app.use('/', indexRouter);
+
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -34,9 +33,12 @@ app.use(function(req, res, next) {
 app.use(function(err, req, res, next) {
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
-
   res.status(err.status || 500);
   res.render('error');
+  console.error('Error message:', err.message, ', Error status:', err.status)
+
 });
 
+
 module.exports = app;
+
